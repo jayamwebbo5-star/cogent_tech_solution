@@ -25,7 +25,7 @@ class App extends BaseConfig {
      * E.g., http://example.com/
 
      */
-    public string $baseURL = 'http://localhost/cogent-solution/';
+    public string $baseURL = 'http://localhost/cogent_tech_solution/';
 
     /**
 
@@ -356,7 +356,7 @@ class App extends BaseConfig {
     public bool $CSPEnabled = false;
 }
 
-define('BEGIN_PATH', 'http://localhost/cogent-solution/');
+define('BEGIN_PATH', 'http://localhost/cogent_tech_solution/');
 
 define('CSS_PATH', BEGIN_PATH . "assets");
 

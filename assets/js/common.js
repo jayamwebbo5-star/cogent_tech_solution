@@ -1,6 +1,6 @@
 //console.log = console.warn = console.error = function() {};
 
-const main_url = "http://localhost/cogent-solution/";
+const main_url = "http://localhost/cogent_tech_solution/";
 const base_url = main_url + "manage-agri/api/";
 console.log(base_url);
 var common = {};
