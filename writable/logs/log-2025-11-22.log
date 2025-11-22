@@ -1,0 +1,588 @@
+CRITICAL - 2025-11-22 09:50:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontent/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontent/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontent/index', [], true)
+ 3 APPPATH\Controllers\Home.php(99): view('frontent/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:35:39 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:35:39 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:35:44 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:38:41 --> Error: Class "App\Models\SlideModel" not found
+[Method: POST, Route: admin/slides/save]
+in APPPATH\Controllers\Admin\Slides.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:48:45 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:48:46 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:48:53 --> Error: Class "App\Models\SlideModel" not found
+[Method: POST, Route: admin/slides/save]
+in APPPATH\Controllers\Admin\Slides.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:49:08 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:49:23 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:52:38 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:52:38 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:56:56 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:56:57 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 10:58:06 --> Error: Class "App\Models\SlideModel" not found
+[Method: POST, Route: admin/slides/save]
+in APPPATH\Controllers\Admin\Slides.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 11:44:06 --> Error: Class "App\Models\SlideModel" not found
+[Method: POST, Route: admin/slides/save]
+in APPPATH\Controllers\Admin\Slides.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 11:48:52 --> Error: Class "App\Models\SlideModel" not found
+[Method: POST, Route: admin/slides/save]
+in APPPATH\Controllers\Admin\Slides.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 11:52:41 --> Error: Class "App\Models\SlideModel" not found
+[Method: POST, Route: admin/slides/save]
+in APPPATH\Controllers\Admin\Slides.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:01:52 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: manage-agri/swiper-manage]
+in APPPATH\Controllers\Admin\Slides.php on line 62.
+ 1 SYSTEMPATH\View\Cell.php(284): App\Controllers\Admin\Slides->slidePreview()
+ 2 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Admin\Slides), 'slidePreview', [], 'App\\Controllers\\Admin\\Slides')
+ 3 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Slides::slidePreview', [], 0, 'AppControllersAdminSlidesslidePreview40cd750bba9870f18aada2478b24840a')
+ 4 APPPATH\Views\admin\pages\swiper.php(44): view_cell('\\App\\Controllers\\Admin\\Slides::slidePreview')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cogent-solution\\app\\Views\\admin\\pages\\swiper.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/swiper', [], true)
+ 8 APPPATH\Controllers\Admin\MainPage.php(419): view('admin/pages/swiper', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->swiper()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:01:56 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: manage-agri/swiper-manage]
+in APPPATH\Controllers\Admin\Slides.php on line 62.
+ 1 SYSTEMPATH\View\Cell.php(284): App\Controllers\Admin\Slides->slidePreview()
+ 2 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Admin\Slides), 'slidePreview', [], 'App\\Controllers\\Admin\\Slides')
+ 3 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Slides::slidePreview', [], 0, 'AppControllersAdminSlidesslidePreview40cd750bba9870f18aada2478b24840a')
+ 4 APPPATH\Views\admin\pages\swiper.php(44): view_cell('\\App\\Controllers\\Admin\\Slides::slidePreview')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cogent-solution\\app\\Views\\admin\\pages\\swiper.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/swiper', [], true)
+ 8 APPPATH\Controllers\Admin\MainPage.php(419): view('admin/pages/swiper', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->swiper()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:02:08 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: manage-agri/swiper-manage]
+in APPPATH\Controllers\Admin\Slides.php on line 62.
+ 1 SYSTEMPATH\View\Cell.php(284): App\Controllers\Admin\Slides->slidePreview()
+ 2 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Admin\Slides), 'slidePreview', [], 'App\\Controllers\\Admin\\Slides')
+ 3 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Slides::slidePreview', [], 0, 'AppControllersAdminSlidesslidePreview40cd750bba9870f18aada2478b24840a')
+ 4 APPPATH\Views\admin\pages\swiper.php(44): view_cell('\\App\\Controllers\\Admin\\Slides::slidePreview')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cogent-solution\\app\\Views\\admin\\pages\\swiper.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/swiper', [], true)
+ 8 APPPATH\Controllers\Admin\MainPage.php(419): view('admin/pages/swiper', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->swiper()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:02:10 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: manage-agri/swiper-manage]
+in APPPATH\Controllers\Admin\Slides.php on line 62.
+ 1 SYSTEMPATH\View\Cell.php(284): App\Controllers\Admin\Slides->slidePreview()
+ 2 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Admin\Slides), 'slidePreview', [], 'App\\Controllers\\Admin\\Slides')
+ 3 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Slides::slidePreview', [], 0, 'AppControllersAdminSlidesslidePreview40cd750bba9870f18aada2478b24840a')
+ 4 APPPATH\Views\admin\pages\swiper.php(44): view_cell('\\App\\Controllers\\Admin\\Slides::slidePreview')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cogent-solution\\app\\Views\\admin\\pages\\swiper.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/swiper', [], true)
+ 8 APPPATH\Controllers\Admin\MainPage.php(419): view('admin/pages/swiper', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->swiper()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:02:29 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: manage-agri/swiper-manage]
+in APPPATH\Controllers\Admin\Slides.php on line 62.
+ 1 SYSTEMPATH\View\Cell.php(284): App\Controllers\Admin\Slides->slidePreview()
+ 2 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Admin\Slides), 'slidePreview', [], 'App\\Controllers\\Admin\\Slides')
+ 3 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Slides::slidePreview', [], 0, 'AppControllersAdminSlidesslidePreview40cd750bba9870f18aada2478b24840a')
+ 4 APPPATH\Views\admin\pages\swiper.php(44): view_cell('\\App\\Controllers\\Admin\\Slides::slidePreview')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cogent-solution\\app\\Views\\admin\\pages\\swiper.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/swiper', [], true)
+ 8 APPPATH\Controllers\Admin\MainPage.php(419): view('admin/pages/swiper', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->swiper()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:02:30 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: manage-agri/swiper-manage]
+in APPPATH\Controllers\Admin\Slides.php on line 62.
+ 1 SYSTEMPATH\View\Cell.php(284): App\Controllers\Admin\Slides->slidePreview()
+ 2 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Admin\Slides), 'slidePreview', [], 'App\\Controllers\\Admin\\Slides')
+ 3 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Slides::slidePreview', [], 0, 'AppControllersAdminSlidesslidePreview40cd750bba9870f18aada2478b24840a')
+ 4 APPPATH\Views\admin\pages\swiper.php(44): view_cell('\\App\\Controllers\\Admin\\Slides::slidePreview')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cogent-solution\\app\\Views\\admin\\pages\\swiper.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/swiper', [], true)
+ 8 APPPATH\Controllers\Admin\MainPage.php(419): view('admin/pages/swiper', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->swiper()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:02:30 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: manage-agri/swiper-manage]
+in APPPATH\Controllers\Admin\Slides.php on line 62.
+ 1 SYSTEMPATH\View\Cell.php(284): App\Controllers\Admin\Slides->slidePreview()
+ 2 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Admin\Slides), 'slidePreview', [], 'App\\Controllers\\Admin\\Slides')
+ 3 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Slides::slidePreview', [], 0, 'AppControllersAdminSlidesslidePreview40cd750bba9870f18aada2478b24840a')
+ 4 APPPATH\Views\admin\pages\swiper.php(44): view_cell('\\App\\Controllers\\Admin\\Slides::slidePreview')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cogent-solution\\app\\Views\\admin\\pages\\swiper.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/swiper', [], true)
+ 8 APPPATH\Controllers\Admin\MainPage.php(419): view('admin/pages/swiper', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->swiper()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:02:30 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: manage-agri/swiper-manage]
+in APPPATH\Controllers\Admin\Slides.php on line 62.
+ 1 SYSTEMPATH\View\Cell.php(284): App\Controllers\Admin\Slides->slidePreview()
+ 2 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Admin\Slides), 'slidePreview', [], 'App\\Controllers\\Admin\\Slides')
+ 3 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Slides::slidePreview', [], 0, 'AppControllersAdminSlidesslidePreview40cd750bba9870f18aada2478b24840a')
+ 4 APPPATH\Views\admin\pages\swiper.php(44): view_cell('\\App\\Controllers\\Admin\\Slides::slidePreview')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cogent-solution\\app\\Views\\admin\\pages\\swiper.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/swiper', [], true)
+ 8 APPPATH\Controllers\Admin\MainPage.php(419): view('admin/pages/swiper', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->swiper()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:02:30 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: manage-agri/swiper-manage]
+in APPPATH\Controllers\Admin\Slides.php on line 62.
+ 1 SYSTEMPATH\View\Cell.php(284): App\Controllers\Admin\Slides->slidePreview()
+ 2 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Admin\Slides), 'slidePreview', [], 'App\\Controllers\\Admin\\Slides')
+ 3 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Slides::slidePreview', [], 0, 'AppControllersAdminSlidesslidePreview40cd750bba9870f18aada2478b24840a')
+ 4 APPPATH\Views\admin\pages\swiper.php(44): view_cell('\\App\\Controllers\\Admin\\Slides::slidePreview')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cogent-solution\\app\\Views\\admin\\pages\\swiper.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/swiper', [], true)
+ 8 APPPATH\Controllers\Admin\MainPage.php(419): view('admin/pages/swiper', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->swiper()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:12:55 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:12:56 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:13:30 --> Error: Class "App\Models\SlideModel" not found
+[Method: POST, Route: admin/slides/save]
+in APPPATH\Controllers\Admin\Slides.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:14:25 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:14:26 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:19:21 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:19:41 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:20:57 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:20:57 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:20:59 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:20:59 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:21:20 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:22:29 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:22:30 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:24:50 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:25:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/homeourmission.php"
+[Method: GET, Route: manage-agri/hometakeaction-manage]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/homeourmission.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/homeourmission', [], true)
+ 3 APPPATH\Controllers\Admin\MainPage.php(440): view('admin/pages/homeourmission', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageHomeTakeAction()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:25:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/homeourmission.php"
+[Method: GET, Route: manage-agri/hometakeaction-manage]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/homeourmission.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/homeourmission', [], true)
+ 3 APPPATH\Controllers\Admin\MainPage.php(440): view('admin/pages/homeourmission', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageHomeTakeAction()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:25:28 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:39:21 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:39:23 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:39:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/pages/services.php"
+[Method: GET, Route: manage-agri/homeservices-manage]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/services.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/pages/services', [], true)
+ 3 APPPATH\Controllers\Admin\MainPage.php(434): view('admin/pages/services', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageHomeServices()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:39:33 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 12:48:02 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 13:54:52 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 13:54:59 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 14:42:26 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 14:44:02 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 14:56:17 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-22 14:56:21 --> Error: Class "App\Models\SlideModel" not found
+[Method: GET, Route: admin/slides/list]
+in APPPATH\Controllers\Admin\Slides.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Slides->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slides))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

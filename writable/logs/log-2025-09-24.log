@@ -1,0 +1,110 @@
+CRITICAL - 2025-09-24 22:27:22 --> ErrorException: Undefined array key "display_order"
+[Method: POST, Route: manage-agri/api/saveBanner]
+in APPPATH/Controllers/Admin/MainPage.php on line 319.
+ 1 APPPATH/Controllers/Admin/MainPage.php(319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "display_order"', '/home4/whatelse/public_html/agri-demo/app/Controllers/Admin/MainPage.php', 319)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\MainPage->saveBanner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 22:27:42 --> ErrorException: Undefined array key "display_order"
+[Method: POST, Route: manage-agri/api/saveBanner]
+in APPPATH/Controllers/Admin/MainPage.php on line 319.
+ 1 APPPATH/Controllers/Admin/MainPage.php(319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "display_order"', '/home4/whatelse/public_html/agri-demo/app/Controllers/Admin/MainPage.php', 319)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\MainPage->saveBanner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 22:38:08 --> ErrorException: Undefined array key 9
+[Method: GET, Route: /]
+in APPPATH/Views/frontent/common/header.php on line 107.
+ 1 APPPATH/Views/frontent/common/header.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php', 107)
+ 2 APPPATH/Views/frontent/index.php(1): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php')
+ 3 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/index.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/index', [], true)
+ 6 APPPATH/Controllers/Home.php(81): view('frontent/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 22:38:11 --> ErrorException: Undefined array key 9
+[Method: GET, Route: /]
+in APPPATH/Views/frontent/common/header.php on line 107.
+ 1 APPPATH/Views/frontent/common/header.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php', 107)
+ 2 APPPATH/Views/frontent/index.php(1): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php')
+ 3 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/index.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/index', [], true)
+ 6 APPPATH/Controllers/Home.php(81): view('frontent/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 22:38:15 --> ErrorException: Undefined array key 9
+[Method: GET, Route: /]
+in APPPATH/Views/frontent/common/header.php on line 107.
+ 1 APPPATH/Views/frontent/common/header.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php', 107)
+ 2 APPPATH/Views/frontent/index.php(1): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php')
+ 3 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/index.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/index', [], true)
+ 6 APPPATH/Controllers/Home.php(81): view('frontent/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 22:38:37 --> ErrorException: Undefined array key 9
+[Method: GET, Route: /]
+in APPPATH/Views/frontent/common/header.php on line 108.
+ 1 APPPATH/Views/frontent/common/header.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php', 108)
+ 2 APPPATH/Views/frontent/index.php(1): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php')
+ 3 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/index.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/index', [], true)
+ 6 APPPATH/Controllers/Home.php(81): view('frontent/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 22:39:31 --> ErrorException: Undefined array key 9
+[Method: GET, Route: /]
+in APPPATH/Views/frontent/common/header.php on line 108.
+ 1 APPPATH/Views/frontent/common/header.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php', 108)
+ 2 APPPATH/Views/frontent/index.php(1): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php')
+ 3 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/index.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/index', [], true)
+ 6 APPPATH/Controllers/Home.php(81): view('frontent/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-24 22:39:52 --> ErrorException: Undefined array key 9
+[Method: GET, Route: /]
+in APPPATH/Views/frontent/common/header.php on line 108.
+ 1 APPPATH/Views/frontent/common/header.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php', 108)
+ 2 APPPATH/Views/frontent/index.php(1): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/common/header.php')
+ 3 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/index.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/index', [], true)
+ 6 APPPATH/Controllers/Home.php(81): view('frontent/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

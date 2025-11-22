@@ -1,0 +1,142 @@
+ERROR - 2025-10-25 10:55:04 --> Array
+(
+    [missionStatusHidden] => 0
+    [web_content_1] => Ready to Make a Difference?
+    [web_content_2] => Join us in our mission to create positive change. Whether you're looking to partner with us, join our team, or learn more about our work, we'd love to hear from you.
+    [web_content_id] => 8
+    [for] => edit
+)
+
+ERROR - 2025-10-25 10:55:35 --> Array
+(
+    [missionStatus] => 1
+    [missionStatusHidden] => 1
+    [web_content_1] => Ready to Make a Difference?
+    [web_content_2] => Join us in our mission to create positive change. Whether you're looking to partner with us, join our team, or learn more about our work, we'd love to hear from you.
+    [web_content_id] => 8
+    [for] => edit
+)
+
+ERROR - 2025-10-25 10:56:59 --> Array
+(
+    [missionStatus] => 1
+    [missionStatusHidden] => 1
+    [web_content_1] => Ready to Make a Difference?
+    [web_content_2] => Join us in our mission to create positive change. Whether you're looking to partner with us, join our team, or learn more about our work, we'd love to hear from you.
+    [web_content_id] => 8
+    [for] => edit
+)
+
+ERROR - 2025-10-25 11:08:49 --> Array
+(
+    [missionStatusHidden] => 0
+    [web_content_1] => Ready to Make a Difference?
+    [web_content_2] => Join us in our mission to create positive change. Whether you're looking to partner with us, join our team, or learn more about our work, we'd love to hear from you.
+    [web_content_id] => 8
+    [for] => edit
+)
+
+ERROR - 2025-10-25 11:09:46 --> Array
+(
+    [missionStatusHidden] => 0
+    [web_content_1] => Ready to Make a Difference?
+    [web_content_2] => Whether you're a farmer seeking support, a technology enthusiast, or someone passionate about sustainable agriculture, there's a place for you in our community. Let's work together to create lasting change.
+    [web_content_id] => 4
+    [for] => edit
+)
+
+ERROR - 2025-10-25 11:31:05 --> Array
+(
+    [missionStatus] => 1
+    [missionStatusHidden] => 1
+    [web_content_1] => Ready to Make a Difference?
+    [web_content_2] => Whether you're a farmer seeking support, a technology enthusiast, or someone passionate about sustainable agriculture, there's a place for you in our community. Let's work together to create lasting change.
+    [web_content_id] => 4
+    [for] => edit
+)
+
+ERROR - 2025-10-25 11:31:17 --> Array
+(
+    [missionStatus] => 1
+    [missionStatusHidden] => 1
+    [web_content_1] => Ready to Make a Difference?
+    [web_content_2] => Join us in our mission to create positive change. Whether you're looking to partner with us, join our team, or learn more about our work, we'd love to hear from you.
+    [web_content_id] => 8
+    [for] => edit
+)
+
+ERROR - 2025-10-25 13:00:50 --> Array
+(
+    [missionStatus] => 1
+    [missionStatusHidden] => 1
+    [web_content_1] => Our Measured Impact
+    [stats] => Array
+        (
+            [0] => Array
+                (
+                    [icon] => fas fa-tractor
+                    [title] => Farms Audited
+                    [count] => 127
+                )
+
+            [1] => Array
+                (
+                    [icon] => fas fa-tools
+                    [title] => Leaks Fixed
+                    [count] => 89
+                )
+
+            [2] => Array
+                (
+                    [icon] => fas fa-water
+                    [title] => Million Gallons Saved
+                    [count] => 2.4
+                )
+
+            [3] => Array
+                (
+                    [icon] => fas fa-chart-line
+                    [title] => % Average Efficiency Gain
+                    [count] => 34
+                )
+
+        )
+
+    [web_content_id] => 17
+    [for] => edit
+)
+
+ERROR - 2025-10-25 13:01:18 --> Array
+(
+    [missionStatus] => 1
+    [missionStatusHidden] => 1
+    [web_content_1] => What We Do
+    [stats] => Array
+        (
+            [2] => Array
+                (
+                    [icon] => fas fa-book-open
+                    [title] => Storytelling
+                    [content] => Document and share your sustainability journey through compelling case studies. Help other farmers learn from your experience and innovations
+                )
+
+            [1] => Array
+                (
+                    [icon] => fas fa-seedling
+                    [title] => Mini-Trials
+                    [content] => Small-scale pilot programs to test innovative irrigation solutions on your farm. We implement and monitor new technologies to measure their real-world impact.
+                )
+
+            [0] => Array
+                (
+                    [icon] => fas fa-clipboard-check
+                    [title] => Farm Audits
+                    [content] => Comprehensive assessment of your current irrigation system to identify inefficiencies and opportunities for improvement. Our experts analyze water usage patterns and system performance.
+                )
+
+        )
+
+    [web_content_id] => 16
+    [for] => edit
+)
+

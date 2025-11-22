@@ -1,0 +1,56 @@
+CRITICAL - 2025-09-09 23:19:07 --> ErrorException: Undefined variable $blog_data
+[Method: GET, Route: casestudy/green-valley-farm-drip-system-optimization]
+in APPPATH/Views/frontent/report-details.php on line 26.
+ 1 APPPATH/Views/frontent/report-details.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_data', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/report-details.php', 26)
+ 2 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/report-details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/report-details', [], true)
+ 5 APPPATH/Controllers/Home.php(294): view('frontent/report-details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pageCaseStudyDetail('green-valley-farm-drip-system-optimization')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-09 23:21:01 --> ErrorException: Undefined variable $blog_data
+[Method: GET, Route: casestudy/green-valley-farm-drip-system-optimization]
+in APPPATH/Views/frontent/report-details.php on line 26.
+ 1 APPPATH/Views/frontent/report-details.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_data', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/report-details.php', 26)
+ 2 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/report-details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/report-details', [], true)
+ 5 APPPATH/Controllers/Home.php(294): view('frontent/report-details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pageCaseStudyDetail('green-valley-farm-drip-system-optimization')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-09 23:21:18 --> ErrorException: Undefined variable $blog_data
+[Method: GET, Route: casestudy/green-valley-farm-drip-system-optimization]
+in APPPATH/Views/frontent/report-details.php on line 26.
+ 1 APPPATH/Views/frontent/report-details.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog_data', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/report-details.php', 26)
+ 2 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/report-details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/report-details', [], true)
+ 5 APPPATH/Controllers/Home.php(294): view('frontent/report-details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pageCaseStudyDetail('green-valley-farm-drip-system-optimization')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-09 23:27:47 --> ErrorException: Undefined array key "web_url"
+[Method: GET, Route: casestudy/green-valley-farm-drip-system-optimization]
+in APPPATH/Views/frontent/report-details.php on line 61.
+ 1 APPPATH/Views/frontent/report-details.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "web_url"', '/home4/whatelse/public_html/agri-demo/app/Views/frontent/report-details.php', 61)
+ 2 SYSTEMPATH/View/View.php(234): include('/home4/whatelse/public_html/agri-demo/app/Views/frontent/report-details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('frontent/report-details', [], true)
+ 5 APPPATH/Controllers/Home.php(294): view('frontent/report-details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pageCaseStudyDetail('green-valley-farm-drip-system-optimization')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

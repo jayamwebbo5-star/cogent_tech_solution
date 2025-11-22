@@ -1,0 +1,1301 @@
+WARNING - 2025-07-25 06:03:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:03:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Auth::$db is deprecated in APPPATH\Controllers\Admin\Auth.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-25 06:04:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Auth::$db is deprecated in APPPATH\Controllers\Admin\Auth.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:04:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-25 06:04:20 --> mysqli_sql_exception: Unknown column 'about_title' in 'SELECT' in C:\wamp64\www\osupport\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\osupport\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `web_set...', 0)
+#1 C:\wamp64\www\osupport\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_set...')
+#2 C:\wamp64\www\osupport\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_set...')
+#3 C:\wamp64\www\osupport\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_set...', Array, false)
+#4 C:\wamp64\www\osupport\app\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\osupport\system\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+#6 C:\wamp64\www\osupport\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+#7 C:\wamp64\www\osupport\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\osupport\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\osupport\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\osupport\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-07-25 06:04:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'about_title' in 'SELECT'
+[Method: GET, Route: manage-support/setting-manage]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 2 APPPATH\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 06:04:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'about_title' in 'SELECT'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 4 APPPATH\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 06:04:20 --> [Caused by] mysqli_sql_exception: Unknown column 'about_title' in 'SELECT'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 5 APPPATH\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-25 06:04:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:04:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-25 06:04:37 --> mysqli_sql_exception: Unknown column 'about_title' in 'SELECT' in C:\wamp64\www\osupport\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\osupport\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `web_set...', 0)
+#1 C:\wamp64\www\osupport\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_set...')
+#2 C:\wamp64\www\osupport\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_set...')
+#3 C:\wamp64\www\osupport\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_set...', Array, false)
+#4 C:\wamp64\www\osupport\app\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\osupport\system\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+#6 C:\wamp64\www\osupport\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+#7 C:\wamp64\www\osupport\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\osupport\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\osupport\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\osupport\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-07-25 06:04:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'about_title' in 'SELECT'
+[Method: GET, Route: manage-support/setting-manage]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 2 APPPATH\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 06:04:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'about_title' in 'SELECT'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 4 APPPATH\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 06:04:37 --> [Caused by] mysqli_sql_exception: Unknown column 'about_title' in 'SELECT'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 5 APPPATH\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-25 06:04:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:04:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:04:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:04:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:11:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-25 06:11:53 --> mysqli_sql_exception: Unknown column 'about_title' in 'SELECT' in C:\wamp64\www\osupport\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\osupport\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `web_set...', 0)
+#1 C:\wamp64\www\osupport\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_set...')
+#2 C:\wamp64\www\osupport\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_set...')
+#3 C:\wamp64\www\osupport\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_set...', Array, false)
+#4 C:\wamp64\www\osupport\app\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\osupport\system\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+#6 C:\wamp64\www\osupport\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+#7 C:\wamp64\www\osupport\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\osupport\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\osupport\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\osupport\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-07-25 06:11:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'about_title' in 'SELECT'
+[Method: GET, Route: manage-support/setting-manage]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 2 APPPATH\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 06:11:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'about_title' in 'SELECT'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 4 APPPATH\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 06:11:53 --> [Caused by] mysqli_sql_exception: Unknown column 'about_title' in 'SELECT'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 5 APPPATH\Controllers\Admin\MainPage.php(1362): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-25 06:11:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:36:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:41:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:41:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:44:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:48:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:48:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:48:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:52:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:56:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:57:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:57:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 06:58:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 06:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 07:01:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 07:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 07:02:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 07:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 07:02:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 07:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 07:03:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 07:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 07:09:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 07:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 19:51:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 19:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 19:51:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Auth::$db is deprecated in APPPATH\Controllers\Admin\Auth.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-25 20:09:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:09:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Auth::$db is deprecated in APPPATH\Controllers\Admin\Auth.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-25 20:09:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Auth::$db is deprecated in APPPATH\Controllers\Admin\Auth.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:09:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-25 20:09:25 --> mysqli_sql_exception: Unknown column 'about_title' in 'SELECT' in C:\wamp64\www\osupport\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\osupport\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `web_set...', 0)
+#1 C:\wamp64\www\osupport\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_set...')
+#2 C:\wamp64\www\osupport\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_set...')
+#3 C:\wamp64\www\osupport\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_set...', Array, false)
+#4 C:\wamp64\www\osupport\app\Controllers\Admin\MainPage.php(1424): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\osupport\system\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+#6 C:\wamp64\www\osupport\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+#7 C:\wamp64\www\osupport\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\osupport\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\osupport\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\osupport\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-07-25 20:09:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'about_title' in 'SELECT'
+[Method: GET, Route: manage-support/setting-manage]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 2 APPPATH\Controllers\Admin\MainPage.php(1424): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 20:09:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'about_title' in 'SELECT'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 4 APPPATH\Controllers\Admin\MainPage.php(1424): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 20:09:25 --> [Caused by] mysqli_sql_exception: Unknown column 'about_title' in 'SELECT'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `web_setting_id`, `about_title`, `about_content`, `social_title`, `facebook_url`, `x_url`, `instagram_url`, `linkedin_url`, `youtube_url`, `user_email`, `contentus_title`, `contentus_title_content`, `contentus_image`, `updated_on`, `updated_by`, concat("http://localhost/osupport/images/setting/", web_banner) as web_banner, concat("http://localhost/osupport/images/setting/", web_logo) as web_logo
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 5 APPPATH\Controllers\Admin\MainPage.php(1424): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-25 20:09:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:09:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:09:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:09:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:09:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:16:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:17:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:17:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:17:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:18:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:19:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:19:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:19:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:19:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:19:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:19:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:21:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:21:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:21:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:21:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:21:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:21:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:22:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:22:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:23:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:23:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:23:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:23:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:23:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:23:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:23:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:24:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:26:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:26:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:26:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:27:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:27:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:27:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:28:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:28:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:28:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:28:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:28:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:28:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:28:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:29:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:29:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:29:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:30:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:30:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:30:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:30:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:30:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:30:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:31:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:31:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:31:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:32:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:32:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:32:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:32:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:32:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:32:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:41:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:41:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:41:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:41:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:42:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:42:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:42:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:42:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:42:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:43:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:43:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:43:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:43:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:43:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:43:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:43:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:43:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-25 20:43:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\MainPage::$db is deprecated in APPPATH\Controllers\Admin\MainPage.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\MainPage->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-07-25 20:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

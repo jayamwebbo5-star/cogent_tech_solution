@@ -1,0 +1,10 @@
+CRITICAL - 2025-01-29 23:09:10 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: POST, Route: ajax/getMaterial]
+in APPPATH/Controllers/Master.php on line 21.
+ 1 APPPATH/Controllers/Master.php(21): date()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master->getMaterial()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

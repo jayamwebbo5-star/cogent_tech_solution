@@ -1,0 +1,70 @@
+CRITICAL - 2025-08-27 06:04:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "work-with-us.php"
+[Method: GET, Route: work-with-us]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('work-with-us.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('work-with-us', [], true)
+ 3 APPPATH/Controllers/Home.php(216): view('work-with-us')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pageWorkWithUs()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-27 06:04:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "work-with-us.php"
+[Method: GET, Route: work-with-us]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('work-with-us.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('work-with-us', [], true)
+ 3 APPPATH/Controllers/Home.php(216): view('work-with-us')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pageWorkWithUs()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-27 08:54:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "work-with-us.php"
+[Method: GET, Route: work-with-us]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('work-with-us.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('work-with-us', [], true)
+ 3 APPPATH/Controllers/Home.php(216): view('work-with-us')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pageWorkWithUs()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-27 11:14:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "work-with-us.php"
+[Method: GET, Route: work-with-us]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('work-with-us.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('work-with-us', [], true)
+ 3 APPPATH/Controllers/Home.php(216): view('work-with-us')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pageWorkWithUs()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-27 11:14:28 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "work-with-us.htmlHere's"
+[Method: GET, Route: work-with-us.htmlHere%27s]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('work-with-us.htmlHere\'s')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('work-with-us.htmlHere\'s')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-27 11:14:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "work-with-us.php"
+[Method: GET, Route: work-with-us]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('work-with-us.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('work-with-us', [], true)
+ 3 APPPATH/Controllers/Home.php(216): view('work-with-us')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pageWorkWithUs()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

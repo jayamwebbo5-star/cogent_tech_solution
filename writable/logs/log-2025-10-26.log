@@ -1,0 +1,28 @@
+ERROR - 2025-10-26 05:22:51 --> Array
+(
+    [missionStatusHidden] => 0
+    [web_content_1] => Sustainable Agriculture Podcasts
+    [web_content_2] => Discover expert insights, farmer stories, and cutting-edge research through our collection of educational podcasts and video content focused on sustainable farming practices.
+    [web_content_id] => 13
+    [for] => edit
+)
+
+ERROR - 2025-10-26 13:45:24 --> Array
+(
+    [missionStatusHidden] => 0
+    [web_content_1] => Ready to Make a Difference?
+    [web_content_2] => Whether you're a farmer seeking support, a technology enthusiast, or someone passionate about sustainable agriculture, there's a place for you in our community. Let's work together to create lasting change.
+    [web_content_id] => 4
+    [for] => edit
+)
+
+ERROR - 2025-10-26 13:46:48 --> Array
+(
+    [missionStatus] => 1
+    [missionStatusHidden] => 1
+    [web_content_1] => Ready to Make a Difference?
+    [web_content_2] => Whether you're a farmer seeking support, a technology enthusiast, or someone passionate about sustainable agriculture, there's a place for you in our community. Let's work together to create lasting change.
+    [web_content_id] => 4
+    [for] => edit
+)
+

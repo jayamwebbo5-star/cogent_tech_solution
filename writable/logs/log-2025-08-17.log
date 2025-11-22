@@ -1,0 +1,43 @@
+ERROR - 2025-08-17 00:48:58 --> Error connecting to the database: mysqli_sql_exception: Connection timed out in /home4/whatelse/public_html/agri/system/Database/MySQLi/Connection.php:186
+Stack trace:
+#0 /home4/whatelse/public_html/agri/system/Database/MySQLi/Connection.php(186): mysqli->real_connect('193.203.184.196', 'u491869190_agri', Object(SensitiveParameterValue), 'u491869190_agri', 3306, '', 0)
+#1 /home4/whatelse/public_html/agri/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home4/whatelse/public_html/agri/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home4/whatelse/public_html/agri/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home4/whatelse/public_html/agri/app/Controllers/Admin/MainPage.php(165): CodeIgniter\Database\BaseBuilder->get()
+#5 /home4/whatelse/public_html/agri/system/CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+#6 /home4/whatelse/public_html/agri/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+#7 /home4/whatelse/public_html/agri/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home4/whatelse/public_html/agri/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home4/whatelse/public_html/agri/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home4/whatelse/public_html/agri/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection timed out in /home4/whatelse/public_html/agri/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home4/whatelse/public_html/agri/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home4/whatelse/public_html/agri/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home4/whatelse/public_html/agri/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home4/whatelse/public_html/agri/app/Controllers/Admin/MainPage.php(165): CodeIgniter\Database\BaseBuilder->get()
+#4 /home4/whatelse/public_html/agri/system/CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+#5 /home4/whatelse/public_html/agri/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+#6 /home4/whatelse/public_html/agri/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home4/whatelse/public_html/agri/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 /home4/whatelse/public_html/agri/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 /home4/whatelse/public_html/agri/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2025-08-17 00:48:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+[Method: GET, Route: manage-agri/social-manage]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `web_setting`
+WHERE `web_setting_id` = :web_setting_id:', [...], false)
+ 3 APPPATH/Controllers/Admin/MainPage.php(165): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\MainPage->pageSetting()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\MainPage))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

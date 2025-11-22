@@ -1,0 +1,28 @@
+CRITICAL - 2025-01-30 08:12:32 --> Error: Class "Config\PDO" not found
+[Method: GET, Route: material]
+in APPPATH/Config/Database.php on line 52.
+ 1 SYSTEMPATH/Config/Factories.php(169): CodeIgniter\Config\Factories::createInstance()
+ 2 SYSTEMPATH/Config/Factories.php(188): CodeIgniter\Config\Factories::__callStatic()
+ 3 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get()
+ 4 SYSTEMPATH/Database/Config.php(63): config()
+ 5 APPPATH/Controllers/Master.php(9): CodeIgniter\Database\Config::connect()
+ 6 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Master->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-01-30 08:22:30 --> Error: Class "Config\PDO" not found
+[Method: GET, Route: /]
+in APPPATH/Config/Database.php on line 52.
+ 1 SYSTEMPATH/Config/Factories.php(169): CodeIgniter\Config\Factories::createInstance()
+ 2 SYSTEMPATH/Config/Factories.php(188): CodeIgniter\Config\Factories::__callStatic()
+ 3 SYSTEMPATH/Common.php(208): CodeIgniter\Config\Factories::get()
+ 4 SYSTEMPATH/Database/Config.php(63): config()
+ 5 APPPATH/Controllers/Login.php(9): CodeIgniter\Database\Config::connect()
+ 6 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

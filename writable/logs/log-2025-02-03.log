@@ -1,0 +1,184 @@
+ERROR - 2025-02-03 08:31:20 --> mysqli_sql_exception: Unknown column 'trip_date' in 'ORDER BY' in /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u491869190/domains/shineearthmovers.com/public_html/app/Helpers/util_helper.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u491869190/domains/shineearthmovers.com/public_html/app/Controllers/Survey.php(104): dataTablePagination()
+#6 /home/u491869190/domains/shineearthmovers.com/public_html/system/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+#7 /home/u491869190/domains/shineearthmovers.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/u491869190/domains/shineearthmovers.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u491869190/domains/shineearthmovers.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/u491869190/domains/shineearthmovers.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/u491869190/domains/shineearthmovers.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-02-03 08:31:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'trip_date' in 'ORDER BY'
+[Method: POST, Route: ajax/getLoadList]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Helpers/util_helper.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Survey.php(104): dataTablePagination()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-03 08:31:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'trip_date' in 'ORDER BY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Helpers/util_helper.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Survey.php(104): dataTablePagination()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-03 08:31:20 --> [Caused by] mysqli_sql_exception: Unknown column 'trip_date' in 'ORDER BY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Helpers/util_helper.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Survey.php(104): dataTablePagination()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-03 08:31:36 --> ErrorException: Undefined array key "order"
+[Method: POST, Route: ajax/getLoadList]
+in APPPATH/Helpers/util_helper.php on line 29.
+ 1 APPPATH/Helpers/util_helper.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Survey.php(104): dataTablePagination()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-03 08:34:56 --> ErrorException: Undefined array key "order"
+[Method: POST, Route: ajax/getLoadList]
+in APPPATH/Helpers/util_helper.php on line 36.
+ 1 APPPATH/Helpers/util_helper.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Survey.php(104): dataTablePagination()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-03 08:38:51 --> mysqli_sql_exception: Unknown column 'trip_date' in 'ORDER BY' in /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u491869190/domains/shineearthmovers.com/public_html/app/Helpers/util_helper.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u491869190/domains/shineearthmovers.com/public_html/app/Controllers/Survey.php(104): dataTablePagination()
+#6 /home/u491869190/domains/shineearthmovers.com/public_html/system/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+#7 /home/u491869190/domains/shineearthmovers.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/u491869190/domains/shineearthmovers.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u491869190/domains/shineearthmovers.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/u491869190/domains/shineearthmovers.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/u491869190/domains/shineearthmovers.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-02-03 08:38:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'trip_date' in 'ORDER BY'
+[Method: POST, Route: ajax/getLoadList]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Helpers/util_helper.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Survey.php(104): dataTablePagination()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-03 08:38:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'trip_date' in 'ORDER BY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Helpers/util_helper.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Survey.php(104): dataTablePagination()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-03 08:38:51 --> [Caused by] mysqli_sql_exception: Unknown column 'trip_date' in 'ORDER BY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Helpers/util_helper.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Survey.php(104): dataTablePagination()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-03 08:55:07 --> mysqli_sql_exception: Unknown column 'trip_date' in 'ORDER BY' in /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u491869190/domains/shineearthmovers.com/public_html/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u491869190/domains/shineearthmovers.com/public_html/app/Helpers/util_helper.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u491869190/domains/shineearthmovers.com/public_html/app/Controllers/Survey.php(118): dataTablePagination()
+#6 /home/u491869190/domains/shineearthmovers.com/public_html/system/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+#7 /home/u491869190/domains/shineearthmovers.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/u491869190/domains/shineearthmovers.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u491869190/domains/shineearthmovers.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/u491869190/domains/shineearthmovers.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/u491869190/domains/shineearthmovers.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-02-03 08:55:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'trip_date' in 'ORDER BY'
+[Method: POST, Route: ajax/getLoadList]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Helpers/util_helper.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Survey.php(118): dataTablePagination()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-03 08:55:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'trip_date' in 'ORDER BY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Helpers/util_helper.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Survey.php(118): dataTablePagination()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-03 08:55:07 --> [Caused by] mysqli_sql_exception: Unknown column 'trip_date' in 'ORDER BY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Helpers/util_helper.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Survey.php(118): dataTablePagination()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Survey->getLoadList()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
